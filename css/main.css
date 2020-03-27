@@ -1,0 +1,279 @@
+/* Спецификация */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #1E1E1E;
+}
+.title {
+    padding-top: 100px;
+    text-align: center;
+}
+.title__main {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.title__text {
+    font-size: 18px;
+    line-height: 22px;
+    width: 850px;
+    margin: 0 auto;
+}
+   
+/* Первый экран */
+
+header {
+    background: url(../img/bg.png);
+    background-size: cover;
+    color: #1E1E1E;
+    padding-top: 58px;
+    padding-bottom: 95px;
+}
+.menu {
+    margin-top: 10px;
+}
+.menu__item {
+    margin: 0 30px;
+}
+.menu__item a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E1E1E;
+    
+}
+.offer {
+    margin-top: 130px;
+}
+.offer__title {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.offer__text {
+    font-size: 18px;
+    line-height: 32px;
+}
+.icons__item {
+    margin-right: 30px;
+    
+}
+.icons__item a {
+    color: #1E1E1E;
+    font-size: 45px;
+}
+.icons__item a:hover {
+    text-decoration: none;
+    color: #207E3B;
+    transition: all 1s ease;
+}
+.iphone {
+    display: block;
+    margin: 50px auto 0;
+    
+}
+
+/* Второй экран */
+#features {
+    background: #E5E5E5;
+    padding-bottom: 110px;
+}
+
+.feature {
+    padding-top: 80px;
+}
+.feature__icon {
+    width: 65px;
+    height: 65px;
+    margin-right: 30px;
+}
+.feature__title {
+    font-size: 20px;
+}
+.feature__text {
+    font-size: 18px;
+}
+
+/* Третий экран */
+
+#persons {
+    background: url(../img/bgperson.png);
+    background-size: cover;
+}
+.person__id {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.person {
+    padding-top: 20px;
+}
+.persons__title{
+    color: #e5e5e5;
+    font-size: 48px;
+    padding-top: 270px;
+}
+.card__block {
+    padding-left: 70px;
+}
+.person__icon {
+    width: 95px;
+    height: 95px;
+}
+.card__title {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 0;
+    color: #e5e5e5;
+}
+.card__text {
+    font-size: 16px;
+    color: #e5e5e5;
+}
+
+/* Четвертый экран */
+
+#download {
+    background: #18A3F8;
+    padding-bottom: 70px;
+}
+.download__links {
+    padding-top: 30px;
+}
+.download__title {
+    font-size: 48px;
+    color: #e5e5e5;
+}
+.dwnld__title {
+    padding-top: 40px;
+    text-align: center;
+}
+.download__icon a{
+    font-size: 40px;
+    color: #e5e5e5;
+}
+.download-card__block {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.download-card__block a {
+    text-decoration: none;
+    
+}
+.download-card__title {
+    font-size: 20px;
+    color: #e5e5e5;
+}
+.download-card__text{
+    font-size: 16px;
+    color: #e5e5e5;
+}
+.download__icon a:hover {
+    text-decoration: none;
+    color: #FFE600;
+    transition: all 1s ease;
+}
+.disabled {
+    color: #1E8CCF;
+}
+
+/* Пятый экран */
+
+#contact {
+    margin-bottom: 0;
+}
+.title__header {
+    font-size: 48px;
+    color: #1e1e1e;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.contact__block {
+    padding-bottom: 40px;
+}
+.contact-icon {
+    width: 35px;
+    height: 35px;
+}
+.contact__title {
+    font-size: 20px;
+    color: #1e1e1e;
+}
+.contact__text {
+    font-size: 16px;
+    color: #1e1e1e;
+}
+.contact__box {
+    padding-left: 70px;
+}
+.map__block {
+    height: 563px;
+    width: auto;
+    background: url(../img/map.png);
+}
+
+/* Футер */
+
+.footer {
+    background: #1E1E1E;
+    width: auto;
+}
+.rights__text {
+    font-size: 14px;
+    color: #e5e5e5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.developer__text {
+    font-size: 14px;
+    color: #e5e5e5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.developer {
+    text-align: right;
+}
+
+/* Медиа-запросы */
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+    .offer {
+        text-align: center;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .icons__item:nth-child(3) {
+        margin-right: 0;
+    }
+    .persons__title {
+        padding-top: 100px;
+    }
+    .rights__text {
+        text-align: center;
+    }
+    .developer__text {
+        text-align: center;
+    }
+    .title__text {
+        width: auto;
+    }
+}
+@media screen and (max-width: 576px) {
+    .iphone {
+        width: 100%;
+    }
+    .menu {
+        flex-direction: column;
+    }
+}
